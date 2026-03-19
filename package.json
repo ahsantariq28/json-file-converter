@@ -1,0 +1,28 @@
+{
+  "name": "json-file-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahsantariq28/json-file-converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ahsantariq28/json-file-converter/issues"
+  },
+  "homepage": "https://github.com/ahsantariq28/json-file-converter#readme",
+  "dependencies": {
+    "uuid": "^13.0.0",
+    "xlsx": "^0.18.5"
+  }
+}

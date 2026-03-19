@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for generated files (optional, if you store output in repo)
+public/files/
+
+# Optional npm cache
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Environment variables
+.env
+
+# MacOS system files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# TypeScript build output
+dist/
+build/
