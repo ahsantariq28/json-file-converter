@@ -63,6 +63,28 @@ console.log(result);
 }
 ```
 
+---
+
+## 🌐 Serve Files in Browser
+
+To access generated files via browser, serve the folder using Express:
+
+```js
+const express = require("express");
+const app = express();
+const port = 3000;
+
+app.use("/files", express.static("public/files"));
+
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`);
+});
+```
+
+Now open the returned `fileUrl` in your browser.
+
+---
+
 ## 🧠 How It Works
 
 - Takes a JSON array as input
@@ -103,8 +125,6 @@ Output (CSV/Excel):
 | name  | address.city | address.country |
 | ----- | ------------ | --------------- |
 | Ahsan | Sahiwal      | Pakistan        |
-
----
 
 ## 🔑 Keywords
 
